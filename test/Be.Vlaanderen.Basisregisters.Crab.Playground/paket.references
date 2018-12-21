@@ -1,0 +1,5 @@
+Microsoft.NETCore.App
+
+NodaTime
+Newtonsoft.Json
+NodaTime.Serialization.JsonNet

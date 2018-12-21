@@ -1,0 +1,7 @@
+NodaTime
+
+Be.Vlaanderen.Basisregisters.AggregateSource
+Be.Vlaanderen.Basisregisters.Generators.Guid.Deterministic
+
+SourceLink.Embed.AllSourceFiles
+SourceLink.Copy.PdbFiles

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Be.Vlaanderen.Basisregisters.Crab", "src\Be.Vlaanderen.Basisregisters.Crab\Be.Vlaanderen.Basisregisters.Crab.csproj", "{E7307E61-048A-4015-A402-13054EC4A54A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{CD1CC42A-0DBA-4D89-8FC9-49EA23DB49CA}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Be.Vlaanderen.Basisregisters.Crab.Playground", "test\Be.Vlaanderen.Basisregisters.Crab.Playground\Be.Vlaanderen.Basisregisters.Crab.Playground.csproj", "{E4BF89F9-6912-434B-8E8C-AD602FA6066E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7307E61-048A-4015-A402-13054EC4A54A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7307E61-048A-4015-A402-13054EC4A54A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7307E61-048A-4015-A402-13054EC4A54A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7307E61-048A-4015-A402-13054EC4A54A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4BF89F9-6912-434B-8E8C-AD602FA6066E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4BF89F9-6912-434B-8E8C-AD602FA6066E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4BF89F9-6912-434B-8E8C-AD602FA6066E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4BF89F9-6912-434B-8E8C-AD602FA6066E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A1EE3BB-35D4-4FC0-AB9C-D5F815FFE3D3}
+	EndGlobalSection
+EndGlobal
