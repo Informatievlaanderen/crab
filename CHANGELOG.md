@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/informatievlaanderen/crab/compare/v1.0.1...v1.0.2) (2019-02-25)
+
+
+### Bug Fixes
+
+* update aggregatesource dependency ([e043ccd](https://github.com/informatievlaanderen/crab/commit/e043ccd))
+
 ## [1.0.1](https://github.com/informatievlaanderen/crab/compare/v1.0.0...v1.0.1) (2018-12-26)
 
 # 1.0.0 (2018-12-26)
