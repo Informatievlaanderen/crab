@@ -16,8 +16,8 @@ description Common Crab functionality.
 
 dependencies
   framework: netstandard20
-    Be.Vlaanderen.Basisregisters.AggregateSource ~> 3.0
-    Be.Vlaanderen.Basisregisters.Generators.Guid.Deterministic ~> 1.0
+    Be.Vlaanderen.Basisregisters.AggregateSource ~> 3.2
+    Be.Vlaanderen.Basisregisters.Generators.Guid.Deterministic ~> 1.1
 
     NodaTime >= LOCKEDVERSION
 
