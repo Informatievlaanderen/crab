@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/informatievlaanderen/crab/compare/v1.0.4...v1.1.0) (2019-08-22)
+
+
+### Features
+
+* bump to .net 2.2.6 ([b9eaf45](https://github.com/informatievlaanderen/crab/commit/b9eaf45))
+
 ## [1.0.4](https://github.com/informatievlaanderen/crab/compare/v1.0.3...v1.0.4) (2019-04-26)
 
 ## [1.0.3](https://github.com/informatievlaanderen/crab/compare/v1.0.2...v1.0.3) (2019-02-26)
