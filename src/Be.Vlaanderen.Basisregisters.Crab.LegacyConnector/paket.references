@@ -1,0 +1,8 @@
+
+Microsoft.Extensions.Configuration
+Microsoft.Extensions.Configuration.Binder
+
+Autofac
+
+SourceLink.Embed.AllSourceFiles
+SourceLink.Copy.PdbFiles

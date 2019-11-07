@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2020
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Be.Vlaanderen.Basisregisters.Crab", "src\Be.Vlaanderen.Basisregisters.Crab\Be.Vlaanderen.Basisregisters.Crab.csproj", "{E7307E61-048A-4015-A402-13054EC4A54A}"
 EndProject
@@ -10,7 +10,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{CD1CC4
 		paket.dependencies = paket.dependencies
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Be.Vlaanderen.Basisregisters.Crab.LegacyConnector", "src\Be.Vlaanderen.Basisregisters.Crab.LegacyConnector\Be.Vlaanderen.Basisregisters.Crab.LegacyConnector.csproj", "{E0169DCE-2215-45F8-A18F-B5CCFC5D60B3}"
+EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Be.Vlaanderen.Basisregisters.Crab.Playground", "test\Be.Vlaanderen.Basisregisters.Crab.Playground\Be.Vlaanderen.Basisregisters.Crab.Playground.csproj", "{E4BF89F9-6912-434B-8E8C-AD602FA6066E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7DA5B899-6C58-447D-BFAF-E31476185C8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{12DC8CF5-0D1D-4DE5-9899-D15DC186F1AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,9 +32,18 @@ Global
 		{E4BF89F9-6912-434B-8E8C-AD602FA6066E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4BF89F9-6912-434B-8E8C-AD602FA6066E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4BF89F9-6912-434B-8E8C-AD602FA6066E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0169DCE-2215-45F8-A18F-B5CCFC5D60B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0169DCE-2215-45F8-A18F-B5CCFC5D60B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0169DCE-2215-45F8-A18F-B5CCFC5D60B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0169DCE-2215-45F8-A18F-B5CCFC5D60B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E7307E61-048A-4015-A402-13054EC4A54A} = {7DA5B899-6C58-447D-BFAF-E31476185C8E}
+		{E0169DCE-2215-45F8-A18F-B5CCFC5D60B3} = {7DA5B899-6C58-447D-BFAF-E31476185C8E}
+		{E4BF89F9-6912-434B-8E8C-AD602FA6066E} = {12DC8CF5-0D1D-4DE5-9899-D15DC186F1AA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A1EE3BB-35D4-4FC0-AB9C-D5F815FFE3D3}
