@@ -1,0 +1,6 @@
+*.key
+*.csr
+*.der
+*.crt
+*.pfx
+*.zip
