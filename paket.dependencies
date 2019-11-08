@@ -39,6 +39,7 @@ nuget Be.Vlaanderen.Basisregisters.Generators.Guid.Deterministic ~> 1.1
 nuget Microsoft.NET.Test.Sdk 16.2.0
 nuget xunit 2.4.1
 nuget xunit.runner.visualstudio 2.4.1
+nuget FluentAssertions 5.8.0
 nuget Shouldly 3.0.2
 
 // BUILD STUFF
