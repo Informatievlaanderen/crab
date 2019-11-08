@@ -11,7 +11,7 @@ namespace Be.Vlaanderen.Basisregisters.Crab.LegacyConnector
     {
         private readonly ServiceConfiguration _configuration;
 
-        internal CrabReader(ServiceConfiguration configuration)
+        public CrabReader(ServiceConfiguration configuration)
             => _configuration = configuration ?? throw new ArgumentNullException(nameof(configuration));
 
         public async Task<IEnumerable<string>> StreetNamesByMunicipality(string municipalityName, CancellationToken cancellationToken)
@@ -22,7 +22,8 @@ namespace Be.Vlaanderen.Basisregisters.Crab.LegacyConnector
             if(cancellationToken.IsCancellationRequested)
                 throw new TaskCanceledException();
 
-            var client = new CrabReadClient(CrabBindings.DefaultHttp, _configuration.GetAddress());
+            var client = new CrabReadClient(CrabBindings.DefaultHttp, _configuration.Endpoint);
+            client.ClientCredentials.ClientCertificate.Certificate = _configuration.Certificate;
             try
             {
                 var result = await execute(client);

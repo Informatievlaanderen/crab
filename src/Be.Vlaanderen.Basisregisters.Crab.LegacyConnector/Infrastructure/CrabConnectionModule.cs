@@ -22,8 +22,22 @@ namespace Be.Vlaanderen.Basisregisters.Crab.LegacyConnector.Infrastructure
             if (crabServicesConfiguration == null)
                 throw new Exception($"Missing configuration: {typeof(CrabServicesConfiguration).Name}. Verify that '{CrabServicesSectionName}' section is set.");
 
+            var certificate = new CrabCertificate(crabServicesConfiguration);
+
+            var readConfiguration = new ServiceConfiguration(crabServicesConfiguration.ReadEndpoint, certificate);
             containerBuilder
-                .Register(c => new CrabConnector(crabServicesConfiguration))
+                .Register(c => new CrabReader(readConfiguration))
+                .AsSelf()
+                .SingleInstance();
+
+            var writerConfiguration = new ServiceConfiguration(crabServicesConfiguration.EditEndpoint, certificate);
+            containerBuilder
+                .Register(c => new CrabWriter(writerConfiguration))
+                .AsSelf()
+                .SingleInstance();
+
+            containerBuilder
+                .RegisterType<CrabConnector>()
                 .AsSelf()
                 .SingleInstance();
         }

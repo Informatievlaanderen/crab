@@ -8,7 +8,7 @@ namespace Be.Vlaanderen.Basisregisters.Crab.LegacyConnector
     using Requests;
     using Responses;
 
-    internal class CrabWriter
+    public class CrabWriter
     {
         private readonly ServiceConfiguration _configuration;
 
@@ -68,7 +68,8 @@ namespace Be.Vlaanderen.Basisregisters.Crab.LegacyConnector
             if (cancellationToken.IsCancellationRequested)
                 throw new OperationCanceledException();
 
-            var client = new CrabEditClient(CrabBindings.DefaultHttp, _configuration.GetAddress());
+            var client = new CrabEditClient(CrabBindings.DefaultHttp, _configuration.Endpoint);
+            client.ClientCredentials.ClientCertificate.Certificate = _configuration.Certificate;
             try
             {
                 var response = await sendCrabEdit(client);

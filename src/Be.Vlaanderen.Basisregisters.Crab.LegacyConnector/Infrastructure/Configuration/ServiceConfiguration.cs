@@ -1,18 +1,21 @@
 namespace Be.Vlaanderen.Basisregisters.Crab.LegacyConnector.Infrastructure.Configuration
 {
     using System;
+    using System.Security.Cryptography.X509Certificates;
     using System.ServiceModel;
 
     public class ServiceConfiguration
     {
-        public string Endpoint { get; internal set; }
+        public EndpointAddress Endpoint { get; }
+        public X509Certificate2 Certificate { get; }
 
-        internal EndpointAddress GetAddress()
+        public ServiceConfiguration(string endpoint, CrabCertificate certificate)
         {
-            if(string.IsNullOrWhiteSpace(Endpoint))
-                throw new ArgumentNullException(nameof(Endpoint));
+            if(string.IsNullOrWhiteSpace(endpoint))
+                throw new ArgumentNullException(nameof(endpoint));
 
-            return new EndpointAddress(new Uri(Endpoint));
+            Endpoint = new EndpointAddress(new Uri(endpoint));
+            Certificate = certificate ?? throw new ArgumentNullException(nameof(certificate));
         }
     }
 }

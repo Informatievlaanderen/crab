@@ -2,7 +2,16 @@ namespace Be.Vlaanderen.Basisregisters.Crab.LegacyConnector.Infrastructure.Confi
 {
     public class CrabServicesConfiguration
     {
-        public ServiceConfiguration CrabRead { get; internal set; }
-        public ServiceConfiguration CrabEdit { get; internal set; }
+        /// <summary></summary>
+        public string Base64Certificate { get; set; }
+
+        /// <summary></summary>
+        public string LocalCertificatePath { get; set; }
+
+        /// <summary>CrabRead endpoint url</summary>
+        public string ReadEndpoint { get; set; }
+
+        /// <summary>CrabEdit endpoint url</summary>
+        public string EditEndpoint { get; set; }
     }
 }
