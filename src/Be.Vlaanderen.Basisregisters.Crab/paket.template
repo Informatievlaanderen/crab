@@ -15,12 +15,12 @@ licenseUrl https://opensource.org/licenses/EUPL-1.2
 description Common Crab functionality.
 
 dependencies
-  framework: netstandard20
+  framework: netcoreapp30
     Be.Vlaanderen.Basisregisters.AggregateSource ~> 3.2
     Be.Vlaanderen.Basisregisters.Generators.Guid.Deterministic ~> 1.1
 
     NodaTime >= LOCKEDVERSION
 
 files
-  bin\Release\netstandard2.0\Be.Vlaanderen.Basisregisters.Crab.dll => lib\netstandard2.0
-  bin\Release\netstandard2.0\Be.Vlaanderen.Basisregisters.Crab.pdb => lib\netstandard2.0
+  bin\Release\netcoreapp30\Be.Vlaanderen.Basisregisters.Crab.dll => lib\netcoreapp30
+  bin\Release\netcoreapp30\Be.Vlaanderen.Basisregisters.Crab.pdb => lib\netcoreapp30

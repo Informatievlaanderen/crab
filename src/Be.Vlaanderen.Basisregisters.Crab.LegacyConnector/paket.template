@@ -15,11 +15,11 @@ licenseUrl https://opensource.org/licenses/EUPL-1.2
 description Legacy connection to Crab.
 
   dependencies
-  framework: netstandard20
+  framework: netcoreapp30
     Autofac >= LOCKEDVERSION
     Microsoft.Extensions.Configuration >= LOCKEDVERSION
     Microsoft.Extensions.Configuration.Binder >= LOCKEDVERSION
 
 files
-  bin\Release\netstandard2.0\Be.Vlaanderen.Basisregisters.Crab.LegacyConnector.dll => lib\netstandard2.0
-  bin\Release\netstandard2.0\Be.Vlaanderen.Basisregisters.Crab.LegacyConnector.pdb => lib\netstandard2.0
+  bin\Release\netcoreapp30\Be.Vlaanderen.Basisregisters.Crab.LegacyConnector.dll => lib\netcoreapp30
+  bin\Release\netcoreapp30\Be.Vlaanderen.Basisregisters.Crab.LegacyConnector.pdb => lib\netcoreapp30
