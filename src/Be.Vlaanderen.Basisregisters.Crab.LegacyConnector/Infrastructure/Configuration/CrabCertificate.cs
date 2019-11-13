@@ -18,7 +18,7 @@ namespace Be.Vlaanderen.Basisregisters.Crab.LegacyConnector.Infrastructure.Confi
             else if (File.Exists(configuration.LocalCertificatePath))
                 _certificate = new X509Certificate2(configuration.LocalCertificatePath);
 
-            if(_certificate == null)
+            if (_certificate == null)
                 throw new Exception($"Crab-service certificate could not be configured. {nameof(configuration.Base64Certificate)} was not set and certificate file '{configuration.LocalCertificatePath}' does not exist.");
         }
 

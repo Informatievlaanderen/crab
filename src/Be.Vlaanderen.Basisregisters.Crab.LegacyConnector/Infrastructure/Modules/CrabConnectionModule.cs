@@ -1,4 +1,4 @@
-namespace Be.Vlaanderen.Basisregisters.Crab.LegacyConnector.Infrastructure
+namespace Be.Vlaanderen.Basisregisters.Crab.LegacyConnector.Infrastructure.Modules
 {
     using System;
     using Autofac;

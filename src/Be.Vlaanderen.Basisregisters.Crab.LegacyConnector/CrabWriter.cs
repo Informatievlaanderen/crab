@@ -4,6 +4,7 @@ namespace Be.Vlaanderen.Basisregisters.Crab.LegacyConnector
     using System.Threading;
     using System.Threading.Tasks;
     using CrabWrite;
+    using Infrastructure;
     using Infrastructure.Configuration;
     using Requests;
     using Responses;
@@ -68,8 +69,10 @@ namespace Be.Vlaanderen.Basisregisters.Crab.LegacyConnector
             if (cancellationToken.IsCancellationRequested)
                 throw new OperationCanceledException();
 
-            var client = new CrabEditClient(CrabBindings.DefaultHttp, _configuration.Endpoint);
+            var client = new CrabEditClient(CrabBindings.Write, _configuration.Endpoint);
+            client.Endpoint.EndpointBehaviors.Add(new CrabBehaviour());
             client.ClientCredentials.ClientCertificate.Certificate = _configuration.Certificate;
+
             try
             {
                 var response = await sendCrabEdit(client);

@@ -5,6 +5,7 @@ namespace Be.Vlaanderen.Basisregisters.Crab.LegacyConnector
     using System.Threading;
     using System.Threading.Tasks;
     using CrabRead;
+    using Infrastructure;
     using Infrastructure.Configuration;
 
     public class CrabReader
@@ -22,8 +23,10 @@ namespace Be.Vlaanderen.Basisregisters.Crab.LegacyConnector
             if(cancellationToken.IsCancellationRequested)
                 throw new TaskCanceledException();
 
-            var client = new CrabReadClient(CrabBindings.DefaultHttp, _configuration.Endpoint);
+            var client = new CrabReadClient(CrabBindings.Read, _configuration.Endpoint);
+            client.Endpoint.EndpointBehaviors.Add(new CrabBehaviour());
             client.ClientCredentials.ClientCertificate.Certificate = _configuration.Certificate;
+
             try
             {
                 var result = await execute(client);
