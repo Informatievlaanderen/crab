@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/informatievlaanderen/crab/compare/v1.1.0...v2.0.0) (2019-12-17)
+
+
+### Code Refactoring
+
+* upgrade to netcoreapp31 ([51e3034](https://github.com/informatievlaanderen/crab/commit/51e3034))
+
+
+### BREAKING CHANGES
+
+* Upgrade to .NET Core 3.1
+
 # [1.1.0](https://github.com/informatievlaanderen/crab/compare/v1.0.4...v1.1.0) (2019-08-22)
 
 
