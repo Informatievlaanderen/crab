@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/informatievlaanderen/crab/compare/v2.0.0...v2.1.0) (2020-02-01)
+
+
+### Features
+
+* upgrade netcoreapp31 and dependencies ([19bbbaa](https://github.com/informatievlaanderen/crab/commit/19bbbaa))
+
 # [2.0.0](https://github.com/informatievlaanderen/crab/compare/v1.1.0...v2.0.0) (2019-12-17)
 
 
