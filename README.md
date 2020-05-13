@@ -1,4 +1,4 @@
-# crab
+# crab [![Build Status](https://github.com/Informatievlaanderen/crab/workflows/CI/badge.svg)](https://github.com/Informatievlaanderen/crab/actions)
 
 Common Crab functionality.
 
