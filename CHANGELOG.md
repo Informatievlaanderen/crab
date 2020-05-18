@@ -1,3 +1,10 @@
+## [2.1.3](https://github.com/informatievlaanderen/crab/compare/v2.1.2...v2.1.3) (2020-05-18)
+
+
+### Bug Fixes
+
+* move to 3.1.4 ([9739b99](https://github.com/informatievlaanderen/crab/commit/9739b99e9a5e24dcae7b491536e36fc46cb0ebc3))
+
 ## [2.1.2](https://github.com/informatievlaanderen/crab/compare/v2.1.1...v2.1.2) (2020-05-13)
 
 
