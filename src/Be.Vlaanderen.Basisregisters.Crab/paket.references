@@ -1,4 +1,8 @@
 NodaTime
+GeoJSON.NET
+Autofac
+
+Microsoft.Extensions.Logging.Abstractions
 
 Be.Vlaanderen.Basisregisters.AggregateSource
 Be.Vlaanderen.Basisregisters.Generators.Guid.Deterministic

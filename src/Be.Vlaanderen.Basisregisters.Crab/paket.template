@@ -20,6 +20,8 @@ dependencies
     Be.Vlaanderen.Basisregisters.Generators.Guid.Deterministic >= LOCKEDVERSION
 
     NodaTime >= LOCKEDVERSION
+    GeoJSON.NET >= LOCKEDVERSION
+    Autofac >= LOCKEDVERSION
 
 files
   bin\Release\netcoreapp3.1\Be.Vlaanderen.Basisregisters.Crab.dll => lib\netcoreapp3.1
