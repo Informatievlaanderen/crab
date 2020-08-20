@@ -2,7 +2,7 @@ namespace Be.Vlaanderen.Basisregisters.Crab.GeoJson
 {
     using System;
 
-    internal interface ICrabGeoJsonObjectMapper
+    public interface ICrabGeoJsonObjectMapper
     {
         Type MapType { get; }
     }

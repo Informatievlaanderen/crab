@@ -1,8 +1,8 @@
 type file
 version 1.0.0
 
-id Be.Vlaanderen.Basisregisters.Crab
-title Be.Vlaanderen.Basisregisters.Crab
+id Be.Vlaanderen.Basisregisters.Crab.Autofac
+title Be.Vlaanderen.Basisregisters.Crab.Autofac
 
 authors Basisregisters Vlaanderen
 owners agentschap Informatie Vlaanderen <https://vlaanderen.be/informatie-vlaanderen>
@@ -16,12 +16,8 @@ description Common Crab functionality.
 
 dependencies
   framework: netcoreapp31
-    Be.Vlaanderen.Basisregisters.AggregateSource >= LOCKEDVERSION
-    Be.Vlaanderen.Basisregisters.Generators.Guid.Deterministic >= LOCKEDVERSION
-
-    NodaTime >= LOCKEDVERSION
-    GeoJSON.NET >= LOCKEDVERSION
+    Autofac >= LOCKEDVERSION
 
 files
-  bin\Release\netcoreapp3.1\Be.Vlaanderen.Basisregisters.Crab.dll => lib\netcoreapp3.1
-  bin\Release\netcoreapp3.1\Be.Vlaanderen.Basisregisters.Crab.pdb => lib\netcoreapp3.1
+  bin\Release\netcoreapp3.1\Be.Vlaanderen.Basisregisters.Crab.Autofac.dll => lib\netcoreapp3.1
+  bin\Release\netcoreapp3.1\Be.Vlaanderen.Basisregisters.Crab.Autofac.pdb => lib\netcoreapp3.1

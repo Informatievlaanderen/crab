@@ -5,7 +5,7 @@ namespace Be.Vlaanderen.Basisregisters.Crab.GeoJson
     using GeoJSON.Net;
     using Microsoft.Extensions.Logging;
 
-    internal class CrabGeoJsonMapper : ICrabGeoJsonMapper
+    public class CrabGeoJsonMapper : ICrabGeoJsonMapper
     {
         private readonly IDictionary<Type, ICrabGeoJsonObjectMapper> _mappers = new Dictionary<Type, ICrabGeoJsonObjectMapper>();
         private readonly ILogger _logger;
