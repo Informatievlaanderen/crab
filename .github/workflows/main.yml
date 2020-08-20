@@ -105,6 +105,7 @@ jobs:
       shell: bash
       run: |
         node packages/Be.Vlaanderen.Basisregisters.Build.Pipeline/Content/ci-nuget.js dist/$LIBNAME/$LIBNAME.$SEMVER.nupkg
+        node packages/Be.Vlaanderen.Basisregisters.Build.Pipeline/Content/ci-nuget.js dist/$LIBNAME/$LIBNAME.Autofac.$SEMVER.nupkg
       env:
         LIBNAME: Be.Vlaanderen.Basisregisters.Crab
         SEMVER: ${{ env.RELEASE_VERSION }}

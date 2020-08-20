@@ -20,7 +20,6 @@ let pack = packSolution nugetVersionNumber
 supportedRuntimeIdentifiers <- [ "linux-x64" ]
 
 // Library ------------------------------------------------------------------------
-
 Target.create "Lib_Build" (fun _ -> build "Be.Vlaanderen.Basisregisters.Crab")
 Target.create "Lib_Publish" (fun _ -> publish "Be.Vlaanderen.Basisregisters.Crab")
 Target.create "Lib_Pack" (fun _ -> pack "Be.Vlaanderen.Basisregisters.Crab")
