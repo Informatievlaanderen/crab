@@ -21,6 +21,7 @@ dependencies
 
     NodaTime >= LOCKEDVERSION
     GeoJSON.NET >= LOCKEDVERSION
+    Microsoft.Extensions.Logging.Abstractions >= LOCKEDVERSION
 
 files
   bin\Release\netcoreapp3.1\Be.Vlaanderen.Basisregisters.Crab.dll => lib\netcoreapp3.1
