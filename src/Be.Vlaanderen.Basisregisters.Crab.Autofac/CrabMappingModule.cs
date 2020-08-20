@@ -1,7 +1,7 @@
-namespace Be.Vlaanderen.Basisregisters.Crab.Modules
+namespace Be.Vlaanderen.Basisregisters.Crab.Autofac
 {
-    using Autofac;
     using GeoJson;
+    using global::Autofac;
 
     public class CrabMappingModule : Module
     {

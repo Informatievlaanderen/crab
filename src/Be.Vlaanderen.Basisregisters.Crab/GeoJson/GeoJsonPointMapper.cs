@@ -3,7 +3,7 @@ namespace Be.Vlaanderen.Basisregisters.Crab.GeoJson
     using System;
     using GeoJSON.Net.Geometry;
 
-    internal class CrabGeoJsonPointMapper : CrabGeoJsonObjectMapper<Point>
+    public class CrabGeoJsonPointMapper : CrabGeoJsonObjectMapper<Point>
     {
         public override string ToWkt(Point point)
         {
