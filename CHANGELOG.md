@@ -1,3 +1,16 @@
+# [2.2.0](https://github.com/informatievlaanderen/crab/compare/v2.1.5...v2.2.0) (2020-08-20)
+
+
+### Bug Fixes
+
+* add missing ref to nuget ([38b02b0](https://github.com/informatievlaanderen/crab/commit/38b02b0ed3b91d054e66c9a6bfdcbb55429f5700))
+* move autofac component to autofact project ([6139ed4](https://github.com/informatievlaanderen/crab/commit/6139ed4754f28953340cd6ebcddfe08064b1411b))
+
+
+### Features
+
+* add geojson to wkt mapping infrastructure ([a1b102d](https://github.com/informatievlaanderen/crab/commit/a1b102d6dd3047977572a92c2107ee8c6a68119f))
+
 ## [2.1.5](https://github.com/informatievlaanderen/crab/compare/v2.1.4...v2.1.5) (2020-07-18)
 
 
