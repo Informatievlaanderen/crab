@@ -1,3 +1,10 @@
+## [2.2.1](https://github.com/informatievlaanderen/crab/compare/v2.2.0...v2.2.1) (2020-08-20)
+
+
+### Bug Fixes
+
+* push autofac lib to nuget ([56687d4](https://github.com/informatievlaanderen/crab/commit/56687d4c2e735822f96e1d491fbfa819a38062ff))
+
 # [2.2.0](https://github.com/informatievlaanderen/crab/compare/v2.1.5...v2.2.0) (2020-08-20)
 
 
