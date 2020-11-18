@@ -1,3 +1,10 @@
+## [2.2.3](https://github.com/informatievlaanderen/crab/compare/v2.2.2...v2.2.3) (2020-11-18)
+
+
+### Bug Fixes
+
+* remove set-env usage in gh-actions ([adc8b55](https://github.com/informatievlaanderen/crab/commit/adc8b552c343353d2832ae3711eee10e7d9e1dd8))
+
 ## [2.2.2](https://github.com/informatievlaanderen/crab/compare/v2.2.1...v2.2.2) (2020-09-21)
 
 
