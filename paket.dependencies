@@ -1,35 +1,27 @@
-framework: netcoreapp31
+framework: net5.0
 source https://api.nuget.org/v3/index.json
 
 // PRODUCTION STUFF
-nuget NodaTime 3.0.0
+nuget NodaTime 3.0.3
 nuget NodaTime.Serialization.JsonNet 3.0.0
 nuget GeoJSON.NET 1.2.19
-nuget Autofac 5.2.0
+nuget Autofac 6.1.0
 
-nuget Microsoft.Extensions.Logging.Abstractions 3.1.8
+nuget Microsoft.Extensions.Logging.Abstractions 5.0.0
 
 // VBR STUFF
-nuget Be.Vlaanderen.Basisregisters.Build.Pipeline 4.2.3
+nuget Be.Vlaanderen.Basisregisters.Build.Pipeline 5.0.1
 
-nuget Be.Vlaanderen.Basisregisters.AggregateSource 5.0.9
+nuget Be.Vlaanderen.Basisregisters.AggregateSource 5.0.12
 
-nuget Be.Vlaanderen.Basisregisters.Generators.Guid.Deterministic 2.2.6
+nuget Be.Vlaanderen.Basisregisters.Generators.Guid.Deterministic 2.2.9
 
 // TEST STUFF
-nuget Microsoft.NET.Test.Sdk 16.7.1
+nuget Microsoft.NET.Test.Sdk 16.8.3
 nuget xunit 2.4.1
 nuget xunit.runner.visualstudio 2.4.3
-nuget Shouldly 3.0.2
+nuget Shouldly 4.0.3
 
 // BUILD STUFF
 nuget SourceLink.Embed.AllSourceFiles 2.8.3 copy_local: true
 nuget SourceLink.Copy.PdbFiles 2.8.3 copy_local: true
-
-// MS Nuget issue, they are referencing previews
-// https://github.com/fsprojects/Paket/issues/3907
-//group NuGetIssue
-//  framework: netcoreapp31
-//  source https://api.nuget.org/v3/index.json
-//  nuget Be.Vlaanderen.Basisregisters.Build.Pipeline 4.2.3
-//  nuget Nuget.Packaging < 5.7
