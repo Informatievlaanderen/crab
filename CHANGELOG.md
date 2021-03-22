@@ -1,3 +1,10 @@
+## [2.2.6](https://github.com/informatievlaanderen/crab/compare/v2.2.5...v2.2.6) (2021-03-22)
+
+
+### Bug Fixes
+
+* remove ridingwolf, collaboration ended ([4b82c7f](https://github.com/informatievlaanderen/crab/commit/4b82c7f2aefb32ea2b3323995ee6846f6eb998aa))
+
 ## [2.2.5](https://github.com/informatievlaanderen/crab/compare/v2.2.4...v2.2.5) (2021-02-02)
 
 
