@@ -1,3 +1,10 @@
+## [2.2.7](https://github.com/informatievlaanderen/crab/compare/v2.2.6...v2.2.7) (2021-05-28)
+
+
+### Bug Fixes
+
+* move to 5.0.6 ([66d7b6b](https://github.com/informatievlaanderen/crab/commit/66d7b6b4f4288be52a488e473d84da5866123439))
+
 ## [2.2.6](https://github.com/informatievlaanderen/crab/compare/v2.2.5...v2.2.6) (2021-03-22)
 
 
