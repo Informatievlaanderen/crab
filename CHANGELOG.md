@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/informatievlaanderen/crab/compare/v2.2.7...v3.0.0) (2022-03-28)
+
+
+### Features
+
+* move to dotnet 6.0.3 ([dd0cb84](https://github.com/informatievlaanderen/crab/commit/dd0cb847de6ff343b7ac10b0274a94247113d07e))
+
+
+### BREAKING CHANGES
+
+* move to dotnet 6.0.3
+
 ## [2.2.7](https://github.com/informatievlaanderen/crab/compare/v2.2.6...v2.2.7) (2021-05-28)
 
 
