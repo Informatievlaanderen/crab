@@ -15,9 +15,9 @@ licenseUrl https://opensource.org/licenses/EUPL-1.2
 description Common Crab functionality.
 
 dependencies
-  framework: net6.0
+  framework: netstandard2.1
     Autofac >= LOCKEDVERSION
 
 files
-  bin\Release\net6.0\Be.Vlaanderen.Basisregisters.Crab.Autofac.dll => lib\net6.0
-  bin\Release\net6.0\Be.Vlaanderen.Basisregisters.Crab.Autofac.pdb => lib\net6.0
+  Be.Vlaanderen.Basisregisters.Crab.Autofac.dll => lib\netstandard2.1
+  Be.Vlaanderen.Basisregisters.Crab.Autofac.pdb => lib\netstandard2.1
