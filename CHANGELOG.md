@@ -1,3 +1,15 @@
+# [4.0.0](https://github.com/informatievlaanderen/crab/compare/v3.0.0...v4.0.0) (2024-03-11)
+
+
+### Features
+
+* upgrade to net 8.0.2 ([22fcc78](https://github.com/informatievlaanderen/crab/commit/22fcc7814b21e08bc21b34041219884c0194e3cf))
+
+
+### BREAKING CHANGES
+
+* upgrade to net 8.0.2
+
 # [3.0.0](https://github.com/informatievlaanderen/crab/compare/v2.2.7...v3.0.0) (2022-03-28)
 
 
