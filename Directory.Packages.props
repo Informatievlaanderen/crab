@@ -1,0 +1,21 @@
+<Project>
+    <PropertyGroup>
+        <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+        <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+        <CentralPackageVersionOverrideEnabled>false</CentralPackageVersionOverrideEnabled>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageVersion Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.3" />
+        <PackageVersion Include="Newtonsoft.Json" Version="13.0.3" />
+        <PackageVersion Include="NodaTime" Version="3.2.2" />
+        <PackageVersion Include="NodaTime.Serialization.JsonNet" Version="3.2.0" />
+        <PackageVersion Include="GeoJSON.NET" Version="1.2.19" />
+        <PackageVersion Include="Autofac" Version="8.2.0" />
+
+        <PackageVersion Include="Be.Vlaanderen.Basisregisters.AggregateSource" Version="10.0.1" />
+        <PackageVersion Include="Be.Vlaanderen.Basisregisters.Generators.Guid.Deterministic" Version="5.0.0" />
+
+        <PackageVersion Include="SourceLink.Embed.AllSourceFiles" Version="2.8.3" />
+        <PackageVersion Include="SourceLink.Copy.PdbFiles" Version="2.8.3" />
+    </ItemGroup>
+</Project>

@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Be.Vlaanderen.Basisregister
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{CD1CC42A-0DBA-4D89-8FC9-49EA23DB49CA}"
 	ProjectSection(SolutionItems) = preProject
-		paket.dependencies = paket.dependencies
+		Directory.Packages.props = Directory.Packages.props
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Be.Vlaanderen.Basisregisters.Crab.Playground", "test\Be.Vlaanderen.Basisregisters.Crab.Playground\Be.Vlaanderen.Basisregisters.Crab.Playground.csproj", "{E4BF89F9-6912-434B-8E8C-AD602FA6066E}"
