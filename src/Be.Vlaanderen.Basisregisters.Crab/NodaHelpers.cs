@@ -7,7 +7,7 @@ namespace Be.Vlaanderen.Basisregisters.Crab
 
     public static class NodaHelpers
     {
-        public static DateTimeZone DefaultCrabDateTimeZone = DateTimeZoneProviders.Tzdb.GetZoneOrNull("Europe/Brussels");
+        public static DateTimeZone DefaultCrabDateTimeZone = DateTimeZoneProviders.Tzdb.GetZoneOrNull("Europe/Brussels")!;
 
         public static string Print(this Instant? value) => value.HasValue ? value.Value.ToString(InstantPattern.ExtendedIso.PatternText, CultureInfo.InvariantCulture) : "ø";
 

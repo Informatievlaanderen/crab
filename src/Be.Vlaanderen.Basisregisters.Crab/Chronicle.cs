@@ -13,7 +13,7 @@ namespace Be.Vlaanderen.Basisregisters.Crab
 
         public void Add(T @event) => _events.Add(@event);
 
-        public T MostCurrent(T incomingEvent)
+        public T? MostCurrent(T? incomingEvent)
         {
             var events = incomingEvent == null ? _events : _events.Concat(new[] { incomingEvent });
 
@@ -22,11 +22,12 @@ namespace Be.Vlaanderen.Basisregisters.Crab
                 .Where(e => e != null);
 
             return nonDeleteds
-                .OrderBy(e => e.BeginDateTime)
-                .ThenBy(e => e.Timestamp).LastOrDefault();
+                .OrderBy(e => e!.BeginDateTime)
+                .ThenBy(e => e!.Timestamp)
+                .LastOrDefault();
         }
 
-        private static T LastInGroup(IGrouping<TKey, T> group)
+        private static T? LastInGroup(IGrouping<TKey, T> group)
         {
             if (group.Any(e => e.Modification == CrabModification.Delete))
                 return default;

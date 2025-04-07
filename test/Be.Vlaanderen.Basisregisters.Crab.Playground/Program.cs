@@ -58,7 +58,7 @@ namespace Be.Vlaanderen.Basisregisters.Crab.Playground
             //foreach (var tz in DateTimeZoneProviders.Tzdb.GetAllZones())
             //    Console.WriteLine(tz.Id);
 
-            var brussels = DateTimeZoneProviders.Tzdb.GetZoneOrNull("Europe/Brussels");
+            var brussels = DateTimeZoneProviders.Tzdb.GetZoneOrNull("Europe/Brussels")!;
             var localDateTime = instant2.InZone(brussels).LocalDateTime;
 
             Console.WriteLine("Crab Lifetime (LocalDateTime)");
@@ -121,12 +121,12 @@ namespace Be.Vlaanderen.Basisregisters.Crab.Playground
         public static JsonSerializerSettings ConfigureDefaultForApi(this JsonSerializerSettings source)
         {
             if (source.ContractResolver is DefaultContractResolver resolver)
-                resolver.NamingStrategy.ProcessDictionaryKeys = true;
+                resolver.NamingStrategy!.ProcessDictionaryKeys = true;
 
             source.DateFormatHandling = DateFormatHandling.IsoDateFormat;
             source.DateTimeZoneHandling = DateTimeZoneHandling.RoundtripKind;
 
-            source.Converters.Add(new StringEnumConverter { CamelCaseText = true });
+            source.Converters.Add(new StringEnumConverter { NamingStrategy = new CamelCaseNamingStrategy() });
             //source.Converters.Add(new TrimStringConverter());
             //source.Converters.Add(new GuidConverter());
 
@@ -140,7 +140,7 @@ namespace Be.Vlaanderen.Basisregisters.Crab.Playground
             source.DateFormatHandling = DateFormatHandling.IsoDateFormat;
             source.DateTimeZoneHandling = DateTimeZoneHandling.Utc;
 
-            source.Converters.Add(new StringEnumConverter { CamelCaseText = true });
+            source.Converters.Add(new StringEnumConverter { NamingStrategy = new CamelCaseNamingStrategy() });
             //source.Converters.Add(new TrimStringConverter());
             //source.Converters.Add(new GuidConverter());
 
