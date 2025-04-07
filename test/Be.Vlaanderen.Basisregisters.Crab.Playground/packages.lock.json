@@ -46,13 +46,13 @@
       },
       "System.Collections.Immutable": {
         "type": "Transitive",
-        "resolved": "9.0.0",
-        "contentHash": "QhkXUl2gNrQtvPmtBTQHb0YsUrDiDQ2QS09YbtTTiSjGcf7NBqtYbrG/BE06zcBPCKEwQGzIv13IVdXNOSub2w=="
+        "resolved": "9.0.3",
+        "contentHash": "CfYi30Pbpw9aGpXVLcoGt+yM0egrE8M1DUOOwdAWOAQ2QZkXkSgjonqZYvtKdxUF1XJaLCp0OdTXueeAeUHSlQ=="
       },
       "be.vlaanderen.basisregisters.crab": {
         "type": "Project",
         "dependencies": {
-          "Be.Vlaanderen.Basisregisters.AggregateSource": "[10.0.1, )",
+          "Be.Vlaanderen.Basisregisters.AggregateSource": "[10.0.2, )",
           "Be.Vlaanderen.Basisregisters.Generators.Guid.Deterministic": "[5.0.0, )",
           "GeoJSON.NET": "[1.4.1, )",
           "Microsoft.Extensions.Logging.Abstractions": "[9.0.3, )",
@@ -61,16 +61,16 @@
       },
       "Be.Vlaanderen.Basisregisters.AggregateSource": {
         "type": "CentralTransitive",
-        "requested": "[10.0.1, )",
-        "resolved": "10.0.1",
-        "contentHash": "WG/LDIMeEgaRdoiMimv8AcRcAVNEGIPsG0zInHjRint7bOXV8ycsAUjP3EOBbnSsjm7gNoqcRIlEZgwZN9Ya7g==",
+        "requested": "[10.0.2, )",
+        "resolved": "10.0.2",
+        "contentHash": "Yl/b3hX+eL00r2hs/vIFbr4BX+4dapcj5AFBguPhO4QBb2Hwzgzm/jjuoS3bziUg5PAb1TWn+jQxcw63c886RA==",
         "dependencies": {
           "Be.Vlaanderen.Basisregisters.Utilities.HashCodeCalculator": "5.0.0",
           "Be.Vlaanderen.Basisregisters.Utilities.HexByteConvertor": "5.0.0",
           "Be.Vlaanderen.Basisregisters.Utilities.ToStringBuilder": "4.0.8",
           "Newtonsoft.Json": "13.0.3",
           "NodaTime": "3.2.2",
-          "System.Collections.Immutable": "9.0.0"
+          "System.Collections.Immutable": "9.0.3"
         }
       },
       "Be.Vlaanderen.Basisregisters.Generators.Guid.Deterministic": {
