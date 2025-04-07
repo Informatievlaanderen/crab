@@ -1,3 +1,15 @@
+# [5.0.0](https://github.com/informatievlaanderen/crab/compare/v4.0.0...v5.0.0) (2025-04-07)
+
+
+### Code Refactoring
+
+* use renovate and nuget + update pipeline ([00895ed](https://github.com/informatievlaanderen/crab/commit/00895ed4dfbbc2339fd9fca7aa70178a009b1f21))
+
+
+### BREAKING CHANGES
+
+* update to dotnet 9
+
 # [4.0.0](https://github.com/informatievlaanderen/crab/compare/v3.0.0...v4.0.0) (2024-03-11)
 
 
