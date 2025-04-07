@@ -24,11 +24,11 @@
       },
       "GeoJSON.Net": {
         "type": "Direct",
-        "requested": "[1.2.19, )",
-        "resolved": "1.2.19",
-        "contentHash": "b1sIWezvF7a4dBz6d0nQfbwJEWFeRjJ6Mri+Hm/FJ1OIEksekiY1X+CgPG/7E3NcHKz3+3RnbX3VAhx03GG21w==",
+        "requested": "[1.4.1, )",
+        "resolved": "1.4.1",
+        "contentHash": "jGl6JvyQV4hS3JsZ7FXTmB1tXE1kadXl2iD8H9OIqe1a5q7OfskDh0Cy2+YrEZ13eI4DJ8xTbDJXz2tldKyM8g==",
         "dependencies": {
-          "Newtonsoft.Json": "10.0.2"
+          "Newtonsoft.Json": "13.0.3"
         }
       },
       "Microsoft.Extensions.Logging.Abstractions": {
