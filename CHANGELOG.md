@@ -1,3 +1,10 @@
+## [5.0.1](https://github.com/informatievlaanderen/crab/compare/v5.0.0...v5.0.1) (2025-04-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency be.vlaanderen.basisregisters.aggregatesource to 10.0.2 ([e7e11fa](https://github.com/informatievlaanderen/crab/commit/e7e11fafdbd89781cdd68a9e9260b2703fcfb5df))
+
 # [5.0.0](https://github.com/informatievlaanderen/crab/compare/v4.0.0...v5.0.0) (2025-04-07)
 
 
