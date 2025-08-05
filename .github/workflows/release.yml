@@ -143,14 +143,14 @@ jobs:
         pip install requests markdown argparse
 
     - name: Download NuGet Crab
-      uses: actions/download-artifact@v4
+      uses: actions/download-artifact@v5
       continue-on-error: false
       with:
         name: nuget-Be.Vlaanderen.Basisregisters.Crab-${{ needs.set-release-version.outputs.version }}
         path: dist/nuget/
 
     - name: Download NuGet Crab Autofac
-      uses: actions/download-artifact@v4
+      uses: actions/download-artifact@v5
       continue-on-error: false
       with:
         name: nuget-Be.Vlaanderen.Basisregisters.Crab.Autofac-${{ needs.set-release-version.outputs.version }}
@@ -199,14 +199,14 @@ jobs:
       run: dotnet --info
 
     - name: Download NuGet Crab
-      uses: actions/download-artifact@v4
+      uses: actions/download-artifact@v5
       continue-on-error: false
       with:
         name: nuget-Be.Vlaanderen.Basisregisters.Crab-${{ needs.release.outputs.version }}
         path: ~/
 
     - name: Download NuGet Crab Autofac
-      uses: actions/download-artifact@v4
+      uses: actions/download-artifact@v5
       continue-on-error: false
       with:
         name: nuget-Be.Vlaanderen.Basisregisters.Crab.Autofac-${{ needs.release.outputs.version }}
