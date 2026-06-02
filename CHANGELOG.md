@@ -1,3 +1,10 @@
+# [5.1.0](https://github.com/informatievlaanderen/crab/compare/v5.0.1...v5.1.0) (2026-06-02)
+
+
+### Features
+
+* update packages ([8b37add](https://github.com/informatievlaanderen/crab/commit/8b37add3bda447a1675aaff0d41b4558d96444bc))
+
 ## [5.0.1](https://github.com/informatievlaanderen/crab/compare/v5.0.0...v5.0.1) (2025-04-08)
 
 
