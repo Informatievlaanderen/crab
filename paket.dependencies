@@ -2,7 +2,7 @@ framework: net8.0, netstandard2.1
 source https://api.nuget.org/v3/index.json
 
 // PRODUCTION STUFF
-nuget NodaTime 3.1.11
+nuget NodaTime 3.3.7
 nuget NodaTime.Serialization.JsonNet 3.1.0
 nuget GeoJSON.NET 1.2.19
 nuget Autofac 8.0.0
